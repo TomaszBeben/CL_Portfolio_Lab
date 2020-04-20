@@ -1,0 +1,19 @@
+@import '_reset';
+@import './settings/_fonts';
+@import './settings/_colors';
+@import './homeHerader.scss';
+body {
+    font-family: $font-base;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+Link {
+    text-decoration: none;
+    font-family: $font-base;
+}

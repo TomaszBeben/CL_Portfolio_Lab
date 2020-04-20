@@ -1,0 +1,29 @@
+.threeColumnsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $color3;
+}
+
+.oneColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: $font-base;
+    .threeColumnsHeader {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .threeColumnsH1 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .threeColumnsH2 {
+        text-align: center;
+        font-family: $font-base;
+        font-size: 14px;
+        margin: 20px;
+    }
+}

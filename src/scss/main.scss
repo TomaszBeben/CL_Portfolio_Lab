@@ -1,9 +1,11 @@
 @import '_reset';
 @import './settings/_fonts';
 @import './settings/_colors';
-@import './homeHerader.scss';
+@import './homeHeader.scss';
+@import './homeThreeColumns.scss';
 body {
     font-family: $font-base;
+    margin: 20px 20px;
 }
 
 button {

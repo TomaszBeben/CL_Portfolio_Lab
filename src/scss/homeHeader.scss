@@ -1,10 +1,9 @@
 .headerContainer {
     width: 100%;
-    max-height: 100%;
+    max-height: 110%;
     display: flex;
     justify-content: space-between;
     margin-right: 5%;
-    border: 1px solid black;
 }
 
 .headerPicture {
@@ -16,21 +15,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: $border;
 }
 
 .headerTopContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: $border;
+    height: 50%;
 }
 
 .headerNavTop {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    border: $border;
     height: 50%;
     margin: 30px;
     .firstFloor {
@@ -67,6 +64,29 @@
     }
 }
 
-.headerNavTopText {
+div.headerNavTopText {
     text-align: center;
+    font-family: $font-base;
+    font-size: 30px;
+    color: $color5;
+}
+
+.headerBottom {
+    min-height: 250px;
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerBottomButtons {
+    padding: 20px 40px 20px 40px;
+    .headerButton {
+        padding: 20px 40px 20px 40px;
+        margin: 10px;
+        border: 2px solid $color5;
+        font-size: 24px;
+        font-family: $font-base;
+    }
 }

@@ -24,6 +24,15 @@ const HomeHeader = () => {
                     </div>
                     <div className='headerNavTopText'>Zacznij pomagać! <br/>Oddaj niechciane rzeczy w zaufane ręce!</div>
                 </div>
+                <div>
+                    <div className='headerBottom'>
+                       <img src={require('../assets/Decoration.svg')}></img> 
+                       <div className='headerBottomButtons'>
+                           <button className='headerButton'>Oddaj rzeczy</button>
+                           <button className='headerButton'>Zorganizuj zbiórkę</button>
+                       </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

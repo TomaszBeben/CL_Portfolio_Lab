@@ -8,12 +8,14 @@ import HomeAboutUs from './HomeAboutUs';
 import HomeCompanies from './HomeCompanies';
 import HomeContact from './HomeContact';
 import HomeFooter from './HomeFooter';
+import HomeFourSteps from './HomeFourSteps'
 
 const Home = () => {
     return (
         <HashRouter>
             <HomeHeader/>
             <HomeThreeColumns/>
+            <HomeFourSteps/>
             <HomeForm/>
             <HomeAboutUs/>
             <HomeCompanies/>

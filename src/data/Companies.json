@@ -1,0 +1,14 @@
+{
+    "Companies": [{
+        "id": "Fundations",
+        "name": "fundacja 1",
+        "purpose": "jaks cel 1",
+        "description": "opis 1"
+    }, {
+        "id": "Fundations",
+        "name": "fundacja 2",
+        "purpose": "jaks cel 2",
+        "description": "opis 2"
+    }]
+
+}

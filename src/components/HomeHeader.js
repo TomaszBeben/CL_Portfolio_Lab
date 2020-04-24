@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+import { Link as NavLink } from 'react-router-dom';
 //REACT Scroll??????
 import decoration from '../assets/Decoration.svg';
 import homeHeroImage from '../assets/Home-Hero-Image.jpg';
@@ -14,15 +15,15 @@ const HomeHeader = () => {
                     <div className='headerTopContainer'>
                         <div className='headerNavTop'>
                             <div className='firstFloor'>
-                                <div><Link className='links' to='/logowanie'>Zaloguj</Link></div>
-                                <div><Link className='links' to='/rejestracja'>Zarejestruj się</Link></div>
+                                <div><NavLink className='links' to='/logowanie'>Zaloguj</NavLink></div>
+                                <div><NavLink className='links' to='/rejestracja'>Zarejestruj się</NavLink></div>
                             </div>
                             <div className='secondFloor'>
                                 <div><Link className='links' to='/oddaj-rzeczy'>Start</Link></div>
-                                <div><Link className='links'>O co chodzi?</Link></div>
-                                <div><Link className='links'>O nas</Link></div>
-                                <div><Link className='links'>Fundacja i organizacje</Link></div>
-                                <div><Link className='links'>Kontakt</Link></div>
+                                <div><Link className='links' to=''>O co chodzi?</Link></div>
+                                <div><Link className='links' to=''>O nas</Link></div>
+                                <div><Link className='links' to=''>Fundacja i organizacje</Link></div>
+                                <div><Link className='links' to=''>Kontakt</Link></div>
                             </div>
                         </div>
                         <div className='headerNavTopText'>Zacznij pomagać! <br />Oddaj niechciane rzeczy w zaufane ręce!</div>

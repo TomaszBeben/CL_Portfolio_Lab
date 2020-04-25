@@ -16,9 +16,9 @@ const Home = () => {
             <HomeHeader/>
             <HomeThreeColumns/>
             <HomeFourSteps/>
-            <HomeForm/>
             <HomeAboutUs/>
             <HomeCompanies/>
+            <HomeForm/>
             <HomeContact/>
             <HomeFooter/>
             <p><Link to='/oddaj-rzeczy'>formularz</Link></p>

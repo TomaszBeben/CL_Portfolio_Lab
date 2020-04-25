@@ -1,0 +1,27 @@
+.fourStepsFloorOne {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourStepsFloorTwo {
+    max-width: 100%;
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $color1;
+    .fourStepsBox {
+        max-width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.fourStepsFloorThree {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
